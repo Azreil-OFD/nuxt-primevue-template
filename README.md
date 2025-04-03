@@ -1,6 +1,6 @@
 # nuxt-primevue-template
 
-Это шаблон проекта, основанный на [Nuxt](https://nuxtjs.org/) с интеграцией [PrimeVue](https://www.primefaces.org/primevue/) и использованием кастомной темы **Nora** из пакета `@primeuix/themes/nora`. Проект также включает ряд модулей Nuxt для работы с шрифтами, иконками, UI, контентом и утилитами Vue.
+Это шаблон проекта, основанный на [Nuxt](https://nuxt.com/) с интеграцией [PrimeVue](https://primevue.org/) и использованием кастомной темы **Nora** из пакета `@primeuix/themes/nora`. Проект также включает ряд модулей Nuxt для работы с шрифтами, иконками, UI, контентом и утилитами Vue.
 
 ## Особенности
 
@@ -19,7 +19,7 @@
 1. **Клонируйте репозиторий:**
 
    ```bash
-   git clone https://github.com/YourUsername/nuxt-primevue-template.git
+   git clone https://github.com/Azreil-OFD/nuxt-primevue-template.git
    cd nuxt-primevue-template
    ```
 
