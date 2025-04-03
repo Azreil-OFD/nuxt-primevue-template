@@ -1,75 +1,91 @@
-# Nuxt Minimal Starter
+# nuxt-primevue-template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Это шаблон проекта, основанный на [Nuxt](https://nuxtjs.org/) с интеграцией [PrimeVue](https://www.primefaces.org/primevue/) и использованием кастомной темы **Nora** из пакета `@primeuix/themes/nora`. Проект также включает ряд модулей Nuxt для работы с шрифтами, иконками, UI, контентом и утилитами Vue.
 
-## Setup
+## Особенности
 
-Make sure to install dependencies:
+- **Nuxt 3**: Использование современного фреймворка для создания универсальных Vue-приложений.
+- **PrimeVue**: Готовые компоненты UI с темой Nora для удобного и красивого интерфейса.
+- **Модули Nuxt**:
+  - `@nuxt/fonts` — для удобного подключения и настройки шрифтов.
+  - `@nuxt/icon` — для работы с иконками.
+  - `@nuxt/ui` — базовые UI-компоненты.
+  - `@nuxt/content` — для управления контентом на сайте.
+  - `@primevue/nuxt-module` — интеграция PrimeVue.
+  - `@vueuse/nuxt` — утилиты и композиционные функции для Vue.
+
+## Установка
+
+1. **Клонируйте репозиторий:**
+
+   ```bash
+   git clone https://github.com/YourUsername/nuxt-primevue-template.git
+   cd nuxt-primevue-template
+   ```
+
+2. **Установите зависимости:**
+
+   ```bash
+   npm install
+   # или
+   yarn install
+   ```
+
+## Запуск проекта в режиме разработки
+
+Запустите проект локально с использованием команды:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
+# или
 yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Откройте браузер и перейдите по адресу [http://localhost:3000](http://localhost:3000) для просмотра приложения.
 
-Build the application for production:
+## Сборка для продакшена
+
+Для создания оптимизированной сборки выполните:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
+# или
 yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+После сборки запустите приложение с помощью:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+npm run start
+# или
+yarn start
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Конфигурация
+
+Основной файл конфигурации `nuxt.config.ts` содержит следующие ключевые настройки:
+
+- **compatibilityDate**: Задает дату совместимости, что помогает Nuxt оптимизировать приложение.
+- **devtools**: Включены инструменты для разработки.
+- **modules**: Подключены необходимые модули для расширения функциональности Nuxt.
+- **primevue**: Настройки для интеграции PrimeVue, где используется тема Nora.
+
+## Структура проекта
+
+- **pages/** — директория с Vue-компонентами, представляющими страницы.
+- **components/** — переиспользуемые компоненты приложения.
+- **content/** — файлы с контентом (если используется @nuxt/content).
+- **assets/** — статические файлы, такие как стили и изображения.
+- **nuxt.config.ts** — основная конфигурация проекта.
+
+## Автор
+
+Проект создан **Azreil-OFD**.
+
+## Лицензия
+
+Этот проект распространяется под [MIT License](LICENSE).
+
+---
+
+Этот шаблон поможет вам быстро начать разработку проектов на базе Nuxt с интеграцией PrimeVue и другими полезными инструментами.
